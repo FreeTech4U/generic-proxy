@@ -45,4 +45,4 @@ jobs:
             docker pull freetech4u/generic-proxy:latest
             docker stop generic-proxy || true
             docker rm generic-proxy || true
-            docker run -d -p 80:80 --name generic-proxy freetech4u/generic-proxy:latest
+            docker run -d -p 80:80 --name generic-proxy freetech4u/generic-proxy:latest -v /mnt/data/certs/freetech4u.fr:/etc/nginx/ssl
