@@ -1,5 +1,5 @@
 
-name: Deploy Nginx Proxy . 
+name: Deploy Nginx Proxy
 
 on:
   push:
